@@ -15,7 +15,7 @@ function App () {
     <>
       <main className='w-screen h-screen grid place-content-center'>
         <section>
-          <article className='grid gap-4 max-w-md bg-[#313a49] px-5 pt-10 pb-14 rounded-md relative'>
+          <article className='grid gap-4 max-w-md bg-[#313a49] px-5 pt-10 pb-14 rounded-2xl relative'>
             <p className='text-xs tracking-widest text-[#52fca8] font-bold  text-center'>ADVICE <span className='tracking-normal'>#{quote ? quote.id : ''}</span></p>
             <span className='text-3xl font-bold text-white text-center block'>"
               {quote ? quote.advice : ''}".
